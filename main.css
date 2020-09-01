@@ -23,7 +23,7 @@ img ~ img {
 	border-color: royalblue;
 }
 /* Task 4 */
-a[href="www.example.com"] {
+a[href$=".com"] {
 	background: yellow;
 }
 /* Task 5 */
