@@ -1,0 +1,32 @@
+main {
+	margin: 30px;
+}
+
+img {
+	height: 100px;
+}
+
+/* Task 1 */
+h3 {
+	color: blue;
+}
+/* Task 2 */
+ol li:nth-child(3),
+ol li:nth-child(5) {
+	color: red;
+}
+
+/* Task 3 */
+img ~ img {
+	border-style: solid;
+	border-image: 2px;
+	border-color: royalblue;
+}
+/* Task 4 */
+a[href$=".com"] {
+	background: yellow;
+}
+/* Task 5 */
+#this {
+	color: violet;
+}
