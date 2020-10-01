@@ -1,15 +1,12 @@
-# Sports Grid
+# Basic CSS Exercises
 
-**Instructions**: 
-* Nest all the sports images from the [assets folder](./assets) into the main element with the class `container`. 
+## Exercise: CSS Selectors 1
 
-* Make the main element a class container that three columns of equal size, taking up all available space.
+**Instructions**:
+1. Select all h3 elements and change the elements' color to blue.
+2. Select list items 3-5 in task 2 using classes. Change the elements' color to red.
+3. Select the sibling of the first image using a combinator. Give the image a border.
+4. Select the link ending in .com with an attribute selector. Give it a yellow background color.
+5. Give "Task 5" (_this_) list item an id and change the color of the text.
 
-* Add a grid gap. 
-![grid1-mock](/assets/grid1-reference.png)
-
-* Comment out the original container sizing and add the following sizes to the columns: 
-    - Col 1 - min-size: 100px, max-size: 350px
-    - Col 2 - 1 fraction
-    - Col 3 - min-size: 100px, max-size 350px
-![grid2-mock](/assets/grid2-reference.png)
+![alt-text](/image/reference-image.png "Reference Image")
